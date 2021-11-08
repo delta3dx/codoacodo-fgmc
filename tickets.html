@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>trabajo practico obligatioriojs2</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script>
+        function resumenx() {
+            var str = document.getElementById('total');
+            str.value = "Total a pagar: $" + document.getElementById('cnt').value * 200 * (document.getElementById('categoria').value / 100);
+        }
+    </script>
+</head>
+
+<body style="color: rgb(33, 37, 41);">
+    <nav class="navbar navbar-light navbar-expand-lg" style="background: #353A40;">
+        <div class="container"><img src="assets/img/codoacodo.png" style="width: 80px;"><a class="navbar-brand" href="index.html" style="color: var(--bs-gray-100);">Conf Bs As<br></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse d-xl-flex justify-content-xl-end" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: var(--bs-body-bg);">La conferencia</a></li>
+                    <li class="nav-item" style="color: var(--bs-light);"><a class="nav-link active" href="#" style="color: var(--bs-light);">Los oradores</a></li>
+                    <li class="nav-item" style="color: var(--bs-light);"><a class="nav-link active" href="#" style="color: var(--bs-light);">El lugar y fecha</a></li>
+                    <li class="nav-item" style="color: var(--bs-light);"><a class="nav-link active" href="#" style="color: var(--bs-light);">Conviértete en orador</a></li>
+                    <li class="nav-item" style="color: var(--bs-light);"><a class="nav-link active" href="tickets.html" style="color: var(--bs-green);">Comprar tickets</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section style="text-align: center;">
+        <div class="container d-lg-flex justify-content-lg-center">
+            <form>
+                <div class="row row-cols-1 d-flex justify-content-center align-items-center align-content-center justify-content-lg-center" style="margin-left: 0px;margin-right: 0px;">
+                    <div class="col-auto align-self-start" style="text-align: center;border-radius: 5px;border: 1px solid #007BFF;margin: 25px;margin-right: 5px;margin-left: 5px;padding: 12px;padding-right: 10px;padding-left: 10px;">
+                        <h6 class="display-6" style="font-weight: bold;text-align: center;font-size: 20px;">Estudiante</h6>
+                        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                            <div class="col" style="padding-left: 0px;padding-right: 0px;"><label class="col-form-label" style="text-align: center;padding-left: 0px;padding-right: 0px;">Tienen un descuento</label></div>
+                        </div>
+                        <div class="row" style="padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;">
+                            <div class="col" style="margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;"><label class="col-form-label" style="text-align: center;font-weight: bold;font-size: 25px;">80%</label></div>
+                        </div>
+                        <div class="row d-xl-flex justify-content-xl-center" style="margin-right: 0px;margin-left: 0px;">
+                            <div class="col-auto text-center" style="padding-left: 0px;padding-right: 0px;"><label class="col-form-label" style="text-align: center;color: var(--bs-gray);font-size: 15px;">* presentar documentación</label></div>
+                        </div>
+                    </div>
+                    <div class="col-auto align-self-start" style="border-radius: 5px;border: 1px solid #17A2B8;margin: 25px;margin-right: 5px;margin-left: 5px;padding: 12px;padding-right: 10px;padding-left: 10px;text-align: center;">
+                        <h6 class="display-6" style="font-weight: bold;text-align: center;font-size: 20px;">Trainee</h6>
+                        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                            <div class="col" style="padding-left: 0px;padding-right: 0px;"><label class="col-form-label" style="text-align: center;padding-left: 0px;padding-right: 0px;">Tienen un descuento</label></div>
+                        </div>
+                        <div class="row" style="padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;">
+                            <div class="col" style="margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;"><label class="col-form-label" style="text-align: center;font-weight: bold;font-size: 25px;">50%</label></div>
+                        </div>
+                        <div class="row d-xl-flex justify-content-xl-center" style="margin-right: 0px;margin-left: 0px;">
+                            <div class="col-auto text-center" style="padding-left: 0px;padding-right: 0px;"><label class="col-form-label" style="text-align: center;color: var(--bs-gray);font-size: 15px;">* presentar documentación</label></div>
+                        </div>
+                    </div>
+                    <div class="col-auto text-center align-self-start" style="border-radius: 5px;border: 1px solid #FDC314;margin: 25px;margin-right: 5px;margin-left: 5px;padding: 12px;padding-right: 10px;padding-left: 10px;text-align: center;">
+                        <h6 class="display-6" style="font-weight: bold;text-align: center;font-size: 20px;">Junior</h6>
+                        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                            <div class="col" style="padding-left: 0px;padding-right: 0px;"><label class="col-form-label" style="text-align: center;padding-left: 0px;padding-right: 0px;">Tienen un descuento</label></div>
+                        </div>
+                        <div class="row" style="padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;">
+                            <div class="col" style="margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;"><label class="col-form-label" style="text-align: center;font-weight: bold;font-size: 25px;">15%</label></div>
+                        </div>
+                        <div class="row d-xl-flex justify-content-xl-center" style="margin-right: 0px;margin-left: 0px;">
+                            <div class="col-auto text-center" style="padding-left: 0px;padding-right: 0px;"><label class="col-form-label" style="text-align: center;color: var(--bs-gray);font-size: 15px;">* presentar documentación</label></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 justify-content-center align-items-center justify-content-lg-center" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col" style="text-align: center;"><label class="col-form-label" style="text-align: center;padding: 0px;">VENTA</label></div>
+                </div>
+                <div class="row row-cols-1 justify-content-center align-items-center justify-content-lg-center" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col" style="text-align: center;">
+                        <h1>VALOR DE TICKET $200</h1>
+                    </div>
+                </div>
+                <div class="row row-cols-1 d-flex d-lg-flex justify-content-lg-center" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col-auto flex-grow-1" style="margin-top: 5px;margin-right: 0px;margin-bottom: 5px;margin-left: 0px;"><input class="form-control" type="text" name="nombre" placeholder="Nombre"></div>
+                    <div class="col-auto flex-grow-1" style="margin-top: 5px;margin-right: 0px;margin-bottom: 5px;margin-left: 0px;"><input class="form-control" type="text" name="apellido" placeholder="Apellido"></div>
+                </div>
+                <div class="row" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col" style="margin-top: 5px;margin-right: 0px;margin-bottom: 5px;margin-left: 0px;"><input class="form-control" type="email" placeholder="Correo" name="correo"></div>
+                </div>
+                <div class="row" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col text-start" style="text-align: center;margin-right: 0px;margin-left: 0px;margin-top: 5px;margin-bottom: 5px;"><label class="form-label">Cantidad</label><input class="form-control" type="number" id="cnt" min="1" placeholder="1"></div>
+                    <div class="col text-start" style="text-align: center;margin-right: 0px;margin-left: 0px;margin-top: 5px;margin-bottom: 5px;"><label class="form-label">Categoria</label><select class="form-select" id="categoria"><option value="20" selected="">Estudiante</option><option value="50">Trainee</option><option value="85">Junior</option></select></div>
+                </div>
+                <div class="row" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col text-start d-xl-flex d-xxl-flex justify-content-xl-center justify-content-xxl-center" style="text-align: center;margin-top: 5px;margin-right: 0px;margin-bottom: 5px;margin-left: 0px;"><input class="form-control" type="text" id="total" disabled="" style="background: #CCE5FF;"></div>
+                </div>
+                <div class="row" style="margin-right: 0px;margin-left: 0px;">
+                    <div class="col text-start d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="text-align: center;margin-top: 20px;margin-right: 0px;margin-bottom: 20px;margin-left: 0px;"><button class="btn btn-primary flex-grow-1" type="reset" style="background: #96C93E;">Borrar</button></div>
+                    <div class="col text-start d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="text-align: center;margin-top: 20px;margin-right: 0px;margin-bottom: 20px;margin-left: 0px;"><button class="btn btn-primary flex-grow-1" id="resumen" type="button" style="background: #96C93E;" onclick='resumenx();'>Resumen</button></div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="page-footer" style="background: #1E4D67;">
+        <div class="container">
+            <div class="row d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" style="padding: 12px 0px 12px 0px;">
+                <div class="col d-lg-flex justify-content-lg-center align-items-lg-center"><a class="d-xl-flex justify-content-xl-center align-items-xl-center" href="#" style="text-align: center;color: var(--bs-light);">Preguntas frecuentes</a></div>
+                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="text-align: center;color: var(--bs-light);"><a href="#" style="color: var(--bs-light);">Contáctanos</a></div>
+                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="text-align: center;color: var(--bs-light);"><a href="#" style="color: var(--bs-light);">Prensa</a></div>
+                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center" style="text-align: center;"><a href="#" style="color: var(--bs-light);">Conferencias</a></div>
+                <div class="col d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"><a href="#" style="text-align: center;color: var(--bs-light);">Términos y condiciones</a></div>
+                <div class="col d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" style="text-align: center;"><a href="#" style="color: var(--bs-light);">Privacidad</a></div>
+                <div class="col text-center d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" style="text-align: center;"><a href="#" style="color: var(--bs-light);">Estudiantes</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
